@@ -1,0 +1,497 @@
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+#logo {
+    width: 50%;
+    padding: 20px
+}
+
+#banner{
+    width: 100%; 
+
+}
+
+#Buscar{
+    margin-left: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 40%;
+    height: 15px;
+    padding: 12px 5px;
+}
+
+#lupa{
+    margin: 1px;
+    border: none;
+    border-radius: 2px;
+    padding: 5.8px 5px;
+    
+    
+}
+.margen{
+    margin-right: 15px;
+}
+
+.titulares{
+    font-size: 24px;
+    color:#666;
+    text-align: center;
+}
+
+.precios{
+    font-size: 18px;
+    margin: 1px;
+}
+
+ .Descripcion{
+    font-size: 16px;
+    color:#666;
+    
+    visibility: hidden;
+    transition: all 0ms;
+}
+
+
+#compraCuotas{
+    
+    text-align: center;
+    
+}
+
+.navegador ul{
+    margin: 0 12px;
+    padding: 0;
+}
+
+.burger-menu{
+    
+    background-color: #1259c3;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto;
+    margin-top: 35px
+       
+}
+
+
+
+.Descuento{
+    font-size: 16px;
+    color:green;
+    margin: 2px;
+    margin-left: 8px;
+}
+.tituloFooter{
+    color:#666;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.icono{
+    color:#1259c3;
+    width: 2em;
+    margin-top: 10px; 
+    
+    
+}
+
+
+footer{
+    background-color:white;
+    padding-top: 10px;
+     
+}
+.textoFooter{
+    color: #666;
+    text-align: center;
+    padding-bottom: 15px;
+   
+}
+
+.mi20{
+    text-align: center;
+    
+}
+
+#Copyright{
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    
+    background-color:#EAC926;
+    padding-bottom: 20px;
+    
+}
+
+main{
+    
+    padding-bottom: 20px;
+    background-color: #ebebeb;
+}
+
+
+    
+.camion{
+    color: green;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    box-sizing: border-box;
+}
+.articulo{
+    margin-bottom: 10px;
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    
+}
+.productos{
+    padding: 0 10px;
+    padding-top: 13px;
+    border-top: solid 1px #ebebeb;
+    position: relative
+    
+}
+.flex{
+    display: flex;
+    
+}
+.imagen{
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+#enlace-registro{
+    color:black;
+    text-decoration: none;
+}
+
+.inputs-registro{
+    padding: 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    margin: 18px;
+    width: 30%;
+}
+
+.labels-registro{
+    margin: 18px;
+    font-size: 16px;
+    color:#666;
+}
+
+.labels-radio{
+    margin: 18px;
+    
+}
+
+#comprador-vendedor{
+    padding-top: 21px;
+    
+}
+
+#categorias-de-interes{
+    display: flex;
+    flex-direction: column;
+}
+
+.check-box{
+    margin: 10px 10px;
+    
+}
+.titulos-check-box{
+    margin: 10px 0px;
+}
+
+#elegir-archivo{
+    margin: 18px
+}
+
+
+.categorias-mas-checkbox{
+    display: flex;
+    padding-bottom: 25px;
+    align-self: center;
+}
+
+.categorias-titulos{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+.categorias-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones-formulario{
+    border: none;
+    padding: 8px 25px;
+    border-radius: 2px;
+    background-color: #1259c3;
+    color: white;
+    font-size: 14px;
+    
+}
+
+#boton-borrar{
+    margin-left: 5px;
+}
+
+.formularios{
+    width: 100%;
+    text-align: center;
+}
+.botones-enviar{
+    padding: 8px 25px;
+    background-color: #1259c3;
+    color: white;
+    font-size: 18px;
+    width: 41%;
+    border: none;
+    border-radius: 3px;
+    margin-top: 18px;
+    
+}
+
+
+
+.font-size-fomularios{
+    font-size: 14px;
+}
+
+#boton-envio-login:hover{
+    background-color: #0022AA;
+}
+
+
+
+
+@media(min-width: 361px){
+   
+    .articulo:hover {
+       
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+     
+    }
+    .articulo:hover .bloque-descripcion{
+        display: block;
+    }
+    
+      
+
+    .articulo:hover .Descripcion {
+        visibility:visible;
+        background-color: white;
+        
+        
+    
+    }
+    
+    
+    .navegador{
+        display: none;
+    }
+    /*flex box mainHeader*/
+    #mainHeader{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    #logo {
+        width: 70%;
+        padding: 20px;
+        margin-left: 25px;
+    }
+    
+    #divLogo{
+        width: 50%;
+    }
+    .buscador{
+        width: 50%;
+    }
+    #Buscar {
+        margin-left: 5px;
+        width: 75%;
+    }
+
+    
+}
+
+@media(min-width: 769px){
+    
+    .navegador{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navegador ul{
+        
+        display: flex;
+    }
+    .navegador ul li{
+        margin: 0 8px
+    }
+
+    .burger-menu{
+        display: none;
+    }
+    .secciones{
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .articulo{
+        width: 40%;
+        margin-bottom: 16px;
+        
+    }
+    #mainHeader{
+        display: flex;
+        flex-wrap:nowrap;
+        
+    }
+    #logo {
+        width: 65%;
+        padding: 20px;
+        margin-left: 60px;
+    }
+    
+    #divLogo{
+        width: 35%;
+    }
+    .buscador{
+        width: 35%;
+    }
+    #Buscar {
+        margin-left: 15px;
+        width: 80%;
+        
+    }
+    #compraCuotas{
+    
+        width: 45%;
+    }
+    .margen {
+        
+        font-size: 14px;
+    }
+    .navegador ul li{
+        font-size: 15px;
+        padding-bottom: 3px;
+        margin-top: 20px;
+    }
+    .botones-enviar{
+        padding: 8px 25px;
+        background-color: #1259c3;
+        color: white;
+        font-size: 18px;
+        width: 35%;
+        border: none;
+        border-radius: 3px;
+        margin-top: 18px;
+        
+    }
+}
+@media(min-width: 1200px){
+
+    .secciones{
+        display: flex;
+       
+        
+    }
+    .articulo{
+       
+        width: 20%;
+        
+    }
+    #ofertas{
+        display: none;
+    }
+    #logo {
+        width: 50%;
+        padding: 20px;
+        margin-left: 85px;
+    }
+    #mainHeader {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .margen {
+        margin-right: 65px;
+        font-size: 17px;
+    }
+    .navegador ul li{
+        font-size: 17px;
+        padding-bottom: 3px;
+        margin-top: 20px;
+    }
+
+    .botones-enviar{
+        padding: 8px 25px;
+        background-color: #1259c3;
+        color: white;
+        font-size: 18px;
+        width: 33%;
+        border: none;
+        border-radius: 3px;
+        margin-top: 15px;
+        
+    }
+    .textoFooter{
+        color: #666;
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 10px;
+    }
+    #main-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+
+    #Copyright{
+        color: #666;
+        margin-left: 15px;
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .icono:hover{
+        color: #60099E;
+    }
+
+    #main-formulario{
+        padding-bottom: 300px;
+    }
+}
